@@ -6,6 +6,8 @@ import PosterOne from "./Routes/PosterOne.jsx";
 import PosterTwo from "./Routes/PosterTwo.jsx";
 import PosterThree from "./Routes/PosterThree.jsx";
 import NoContent from "./Routes/NoContent.jsx";
+import MyDogs from "./Routes/MyDogs.jsx";
+import Anders from "./Routes/Anders.jsx";
 
 function App() {
 	return (
@@ -15,6 +17,8 @@ function App() {
 				<Route path="/PosterOne" element={<PosterOne />} />
 				<Route path="/PosterTwo" element={<PosterTwo />} />
 				<Route path="/PosterThree" element={<PosterThree />} />
+				<Route path="/MyDogs" element={<MyDogs />} />
+				<Route path="/Anders" element={<Anders />} />
 				<Route path="*" element={<NoContent />} />
 			</Routes>
 		</Router>
